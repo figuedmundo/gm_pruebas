@@ -1,0 +1,12 @@
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: small;
+  background: #fff;
+}
+
+#map {
+  height: 500px;
+  width: 1000px;
+  border: 1px solid #000;
+}
+
