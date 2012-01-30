@@ -6,10 +6,10 @@ create table dispositivos (
 );
 
 create table maps (
-	id_map	            int4	not null,
-	latitude            float   null,
-	longitude           float	null,
-	id_dispositivo      int4    not null,
+	id_map	              int4	 not null,
+	latitude            	  float    null,
+	longitude            float	 null,
+	id_dispositivo      int4     not null,
 	constraint pk_map primary key (id_map),
 	constraint fk_map foreign key (id_dispositivo)
 		references dispositivos (id_dispositivo)

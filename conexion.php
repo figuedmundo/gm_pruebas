@@ -4,7 +4,7 @@
  ***********************************/
 $enlace = 0;
 function conectar_bd () {
-    $enlace = pg_connect("host=localhost port=5432 user=ed password=sudosu dbname=maps")
+    $enlace = pg_connect("host=localhost port=5432 user=ed password=memi dbname=maps")
                         or die
                         ("Existio un error al intentar conectarse al servidor de base de datos");
 }

@@ -12,8 +12,8 @@ $(document).ready(function(){
          google.maps.event.addListener(map, 'click', function(event) {
            placeMarker(event.latLng);
 
-          $('#x').prepend(' '+ event.latLng.lat());
-          $('#y').prepend(' '+ event.latLng.lng());
+          $('#x').text( event.latLng.lat() );
+          $('#y').text( event.latLng.lng() );
           //alert(event.latLng.lat());
 
          });
@@ -29,5 +29,5 @@ $(document).ready(function(){
 
           }
 
-      });
 
+      });

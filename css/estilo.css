@@ -1,8 +1,65 @@
-body {
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: small;
-  background: #fff;
+.round 
+{
+    border-radius: 16px;
 }
+
+body 
+{
+    background: #fff;
+    color:  #333;
+    font-family:  Helvetica, Arial;
+    font-size: 16px;
+}
+h1 
+{
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333;
+}
+
+nav {
+    margin: 0 0 20px 0;
+    overflow: visible;
+    height: 32px;
+}
+
+nav li {
+    float: left;
+    padding: 15px;
+    background-color: #333;
+    margin: 0 5px 0 0;
+    position: relative;
+    height: 20px;
+    list-style-type: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav li.selected {
+    background-color: red;
+    font-weight: normal;
+}
+
+nav li.hover {
+    background-color: blue;
+}
+
+nav li a
+{
+    color: #FFF;
+}
+nav li a:visited
+{
+    color: #FFF;
+}
+
 
 #map {
   height: 500px;
@@ -10,3 +67,8 @@ body {
   border: 1px solid #000;
 }
 
+#content article
+{
+    display: inline-block;
+    vertical-align: top;
+}

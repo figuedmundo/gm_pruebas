@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border"
+			],
+			[
+				"b",
+				"border	border-right: size style color"
+			],
+			[
+				"s",
+				"selector	A basic jQuery selector"
+			],
+			[
+				"h",
+				"hidePolyline"
+			],
+			[
+				"sh",
+				"showPolyline"
+			],
+			[
+				"hid",
+				"hideMarkers"
+			],
+			[
+				"show",
+				"showMarkers"
+			],
+			[
+				"se",
+				"selector	A basic jQuery selector"
+			],
+			[
+				"mar",
+				"markers"
+			],
+			[
+				"ad",
+				"addMarker"
+			],
+			[
+				"po",
+				"polyline"
+			],
+			[
+				"ma",
+				"marker"
+			],
+			[
+				"inf",
+				"infowindow"
+			],
+			[
+				"lo",
+				"locationsJSON"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Ma",
+				"mapTypeId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/map3.js",
+			"settings":
+			{
+				"buffer_size": 3711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "map3.html",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Sn jq",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"Snippet: ",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"sni",
+				"Snippet: for (…) {…}"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			],
+			[
+				"#",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"s",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
+		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
+		"/opt/lampp/htdocs/google_maps_pruebas/index.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/map2.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/getlatlng.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/README",
+		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map2.js",
+		"/home/ed/.config/sublime-text-2/Packages/User/CSS.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map1.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/jquery.js",
+		"/home/ed/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/google_maps_prueba.sublime-project",
+		"/opt/lampp/htdocs/google_maps_pruebas/google_maps_prueba.sublime-workspace",
+		"/home/ed/publico/www/librojquery/ejercicios/js/sandbox.js",
+		"/home/ed/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/segundo.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/segundo.html",
+		"/home/ed/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/opt/lampp/htdocs/google_maps_pruebas/.gitignore",
+		"/opt/lampp/htdocs/google_maps_pruebas/auth.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map.js~",
+		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php~"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"333",
+			"include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/map3.js",
+					"settings":
+					{
+						"buffer_size": 3711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "map3.html",
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bd",
+				"bd/script.sql"
+			],
+			[
+				"css",
+				"css/estilo.css"
+			],
+			[
+				"map",
+				"js/map1.js"
+			],
+			[
+				"ma",
+				"js/map1.js"
+			],
+			[
+				"ge",
+				"getlatlng.html"
+			],
+			[
+				"js",
+				"js/map.js"
+			],
+			[
+				"",
+				"README"
+			],
+			[
+				"e",
+				"css/estilo.css"
+			],
+			[
+				"s",
+				"libs/js/jquery.js"
+			],
+			[
+				"au",
+				"auth.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/ed/publico/www/librojquery/librojquery.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}
