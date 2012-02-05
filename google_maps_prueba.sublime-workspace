@@ -80,6 +80,14 @@
 			}
 		},
 		{
+			"file": "auth.php",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "map3.html",
 			"settings":
 			{
@@ -95,12 +103,20 @@
 		"selected_items":
 		[
 			[
-				"tab",
-				"View: Toggle Tabs"
+				"php",
+				"Format: Php"
+			],
+			[
+				"for",
+				"Format: Php"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
 			],
 			[
 				"Sn jq",
@@ -127,10 +143,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
 				"htm",
 				"Set Syntax: HTML"
 			],
@@ -155,7 +167,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -168,12 +180,16 @@
 	},
 	"file_history":
 	[
+		"/opt/lampp/htdocs/google_maps_pruebas/php/map3.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/map3.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/conexion.php",
+		"/home/ed/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
 		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
 		"/opt/lampp/htdocs/google_maps_pruebas/index.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map2.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/getlatlng.html",
-		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/README",
 		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
@@ -198,7 +214,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -212,6 +228,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mapa",
+			" ){",
+			"mapa",
 			"333",
 			"include"
 		],
@@ -246,13 +265,41 @@
 						"selection":
 						[
 							[
-								434,
-								435
+								3325,
+								3325
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1496.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "auth.php",
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -263,7 +310,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "map3.html",
 					"settings":
 					{
@@ -274,8 +321,8 @@
 						"selection":
 						[
 							[
-								1233,
-								1233
+								495,
+								495
 							]
 						],
 						"settings":
