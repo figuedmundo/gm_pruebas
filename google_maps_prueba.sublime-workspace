@@ -72,18 +72,18 @@
 	"buffers":
 	[
 		{
-			"file": "js/map3.js",
+			"file": "js/map5.js",
 			"settings":
 			{
-				"buffer_size": 3711,
+				"buffer_size": 8441,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "map3.html",
+			"file": "map5.html",
 			"settings":
 			{
-				"buffer_size": 1386,
+				"buffer_size": 1477,
 				"line_ending": "Unix"
 			}
 		}
@@ -95,12 +95,20 @@
 		"selected_items":
 		[
 			[
-				"tab",
-				"View: Toggle Tabs"
+				"php",
+				"Format: Php"
+			],
+			[
+				"for",
+				"Format: Php"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
 			],
 			[
 				"Sn jq",
@@ -127,10 +135,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
 				"htm",
 				"Set Syntax: HTML"
 			],
@@ -155,7 +159,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -168,12 +172,18 @@
 	},
 	"file_history":
 	[
-		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
-		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
+		"/opt/lampp/htdocs/google_maps_pruebas/map1.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/index.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map2.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/map3.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/getlatlng.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/auth.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/php/map3.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/conexion.php",
+		"/home/ed/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
+		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
+		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
 		"/opt/lampp/htdocs/google_maps_pruebas/README",
 		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
@@ -192,13 +202,12 @@
 		"/opt/lampp/htdocs/google_maps_pruebas/segundo.html",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/opt/lampp/htdocs/google_maps_pruebas/.gitignore",
-		"/opt/lampp/htdocs/google_maps_pruebas/auth.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map.js~",
 		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php~"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -212,6 +221,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mapa",
+			" ){",
+			"mapa",
 			"333",
 			"include"
 		],
@@ -236,46 +248,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/map3.js",
+					"file": "js/map5.js",
 					"settings":
 					{
-						"buffer_size": 3711,
+						"buffer_size": 8441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								434,
-								435
+								771,
+								771
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 47.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "map3.html",
+					"file": "map5.html",
 					"settings":
 					{
-						"buffer_size": 1386,
+						"buffer_size": 1477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1233,
-								1233
+								1438,
+								1438
 							]
 						],
 						"settings":
@@ -285,7 +297,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 387.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
