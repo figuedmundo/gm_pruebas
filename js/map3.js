@@ -118,7 +118,7 @@ var mapa = {
 
 $(document).ready(function(){
     var latlng = [ -17.3937285, -66.1457475] ;
-    mapa.init('#map', 12, latlng );
+    mapa.init('#map', 17, latlng );
     mapa.addMarkers();
 
 // $('#menu').find('li').each(function(){
