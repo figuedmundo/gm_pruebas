@@ -199,13 +199,10 @@ var mapa = {
         var srcImage = 'imagenes/margen1.png';
         this.overlay = new USGSOverlay(bounds, srcImage, mapa.map);
 
-        google.maps.event.addListener(mapa.map, 'click', function(event) {
-           mapa.placeMarker(event.latLng);
+        // google.maps.event.addListener(mapa.map, 'click', function(event) {
+        //    mapa.placeMarker(event.latLng);
 
-          $('#x').text( event.latLng.lat() );
-          $('#y').text( event.latLng.lng() );
-          //alert(event.latLng.lat());
-
+          
          });
     },
 
@@ -268,9 +265,9 @@ var mapa = {
 
     hidePolyline : function(){
         this.polyline.setMap(null);
-    },
+    }
 
-    placeMarker : function( location ){
+    /*placeMarker : function( location ){
           // var clickedLocation = new google.maps.LatLng(location);
           var marker = new google.maps.Marker({
               position: location,
@@ -278,7 +275,7 @@ var mapa = {
           });
           console.log( location.lat()+", "+location.lng() );
           // console.log(location);
-    }
+    }*/
 
 
 };
@@ -287,22 +284,3 @@ $(document).ready(function(){
     var latlng = [ -17.3937285, -66.1457475] ;
     mapa.init('#map', 17, latlng );
     mapa.addMarkers();
-
-// $('#menu').find('li').each(function(){
-//     $(this).click(function(){
-        
-//         ($('#marker').prop('checked')) ?  mapa.showMarkers() : mapa.hideMarkers() ;
-//         ($('#ruta').prop('checked')) ?  mapa.showPolyline() : mapa.hidePolyline() ;
-        
-//     });
-// });
-    
-    $('#marker').click(function(){
-        ($(this).prop('checked')) ?  mapa.showMarkers() : mapa.hideMarkers() ;
-    });
-
-    $('#ruta').click(function(){
-        ($(this).prop('checked')) ?  mapa.showPolyline() : mapa.hidePolyline() ;
-    });
-});
-
