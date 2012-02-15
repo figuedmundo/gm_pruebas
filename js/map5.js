@@ -250,19 +250,19 @@ var UMSS = {
         var bounds = new google.maps.LatLngBounds(swBound, neBound);
 
         var srcImage = 'imagenes/margen1.png';
-<<<<<<< HEAD
+
         this.overlay = new USGSOverlay(bounds, srcImage, mapa.map);
 
         // google.maps.event.addListener(mapa.map, 'click', function(event) {
         //    mapa.placeMarker(event.latLng);
 
           
-=======
+
         this.overlay = new UMSSOverlay(bounds, srcImage, UMSS.map);
 
  /*       google.maps.event.addListener(UMSS.map, 'click', function(event) {
            UMSS.placeMarker(event.latLng);
->>>>>>> test-5
+
          });
  */
     },
@@ -350,8 +350,7 @@ var UMSS = {
         this.polyline.setMap(null);
     }
 
-<<<<<<< HEAD
-=======
+
     addPolyline : function( color, opacity, weight ){
       // color debe ser un string con elvalor hexadecimal del color ej: '#ff0000'
       // opacity debe set un numero entre 0 y 1 ej: 0.6
@@ -370,7 +369,7 @@ var UMSS = {
         console.log(name);
     }
 */
->>>>>>> test-5
+
     /*placeMarker : function( location ){
           // var clickedLocation = new google.maps.LatLng(location);
           var marker = new google.maps.Marker({
