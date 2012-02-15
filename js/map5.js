@@ -28,17 +28,33 @@ locationsJSON = {
         {
             'lat':  -17.391806900392517,
             'lng':  -66.14190523558614,
-            'info': 'bound ne',
+            // 'info': 'bound ne',
             'markerType': 'prueba' 
         }
 
     ]
 };
+/*
+var UMSSOverlay = {
+  overlay: null,
+  bounds: null,
+  image: null,
+  map: null,
+  div: null,
 
+  init : function( bounds, image, map ) {
+    this.bounds = bounds;
+    this.image = image;
+    this.map = map;
 
-        
+    this.setMap(map);
+  },
 
-function USGSOverlay(bounds, image, map) {
+  
+};
+        */
+
+function UMSSOverlay(bounds, image, map) {
 
   // Now initialize all properties.
   this.bounds_ = bounds;
@@ -55,11 +71,9 @@ function USGSOverlay(bounds, image, map) {
   this.setMap(map);
 }
 
-USGSOverlay.prototype = new google.maps.OverlayView();
+UMSSOverlay.prototype = new google.maps.OverlayView();
 
-
-
-USGSOverlay.prototype.onAdd = function() {
+UMSSOverlay.prototype.onAdd = function() {
 
   // Note: an overlay's receipt of onAdd() indicates that
   // the map's panes are now available for attaching
@@ -77,20 +91,35 @@ USGSOverlay.prototype.onAdd = function() {
   img.style.width = "100%";
   img.style.height = "100%";
   div.appendChild(img);
-
+  
   // Set the overlay's div_ property to this DIV
   this.div_ = div;
+
+/*
+  //intento de poner lo de arriba en jquery
+  var $div = $('div');
+  $div.css({'border' : 'none', 'borderWidth' : '0px', 'position' : 'absolute'});
+
+  var $img = $('img');
+  $img.attr('src', this.image);
+  $img.css({ 'width': '100%', 'height': "100%"  });
+
+  $div.append($img):
+  this.div_ = $div.get(0);
+*/
+  
 
   // We add an overlay to a map via one of the map's panes.
   // We'll add this overlay to the overlayImage pane.
   var panes = this.getPanes();
   panes.overlayLayer.appendChild(div);
+
 }
 
 
 
 
-USGSOverlay.prototype.draw = function() {
+UMSSOverlay.prototype.draw = function() {
 
   // Size and position the overlay. We use a southwest and northeast
   // position of the overlay to peg it to the correct position and size.
@@ -109,29 +138,49 @@ USGSOverlay.prototype.draw = function() {
   div.style.top = ne.y + 'px';
   div.style.width = (ne.x - sw.x) + 'px';
   div.style.height = (sw.y - ne.y) + 'px';
+},
+
+UMSSOverlay.prototype.setOpacity = function( x ){
+ /*
+  if (typeof(this.div_.style.filter) =='string'){
+    this.div_.style.filter = 'alpha(opacity:' + opacity + ')' ;
+   }
+*/
+  console.log(this.div_);
+
+   if (typeof(this.div_.style.KHTMLOpacity) == 'string' ){
+    this.div_.style.KHTMLOpacity = x ;
+   };
+   if (typeof(this.div_.style.MozOpacity) == 'string'){
+    this.div_.style.MozOpacity = x ;
+   };
+   if (typeof(this.div_.style.opacity) == 'string'){
+    this.div_.style.opacity = x ;
+   };
 }
 
 
-/*
-USGSOverlay.prototype.onRemove = function() {
+
+UMSSOverlay.prototype.onRemove = function() {
   this.div_.parentNode.removeChild(this.div_);
   this.div_ = null;
 }
 
+/*
 // Note that the visibility property must be a string enclosed in quotes
-USGSOverlay.prototype.hide = function() {
+UMSSOverlay.prototype.hide = function() {
   if (this.div_) {
     this.div_.style.visibility = "hidden";
   }
 }
 
-USGSOverlay.prototype.show = function() {
+UMSSOverlay.prototype.show = function() {
   if (this.div_) {
     this.div_.style.visibility = "visible";
   }
 }
 
-USGSOverlay.prototype.toggle = function() {
+UMSSOverlay.prototype.toggle = function() {
   if (this.div_) {
     if (this.div_.style.visibility == "hidden") {
       this.show();
@@ -141,7 +190,7 @@ USGSOverlay.prototype.toggle = function() {
   }
 }
 
-USGSOverlay.prototype.toggleDOM = function() {
+UMSSOverlay.prototype.toggleDOM = function() {
   if (this.getMap()) {
     this.setMap(null);
   } else {
@@ -150,6 +199,7 @@ USGSOverlay.prototype.toggleDOM = function() {
 }
 
 */
+
 /*// Now we add an input button to initiate the toggle method 
 // on the specific overlay
 <div id ="toolbar" width="100%; height:20px;" style="text-align:center">
@@ -158,11 +208,11 @@ USGSOverlay.prototype.toggleDOM = function() {
 </div>*/
 
 
-var mapa = {
+var UMSS = {
     map : null,
     infowindow : null,
     markers : Array(),
-    ruta : new google.maps.MVCArray(),
+    // ruta : new google.maps.MVCArray(),
     polyline : null,
     locations : null,
     overlay: null,
@@ -179,6 +229,8 @@ var mapa = {
         };
 
         this.map = new google.maps.Map($(selector).get(0), options);
+         
+/*
         // creamos el obejto polyline para la ruta
         this.polyline = new google.maps.Polyline({
             path: this.ruta,
@@ -186,6 +238,7 @@ var mapa = {
             strokeOpacity: 0.6,
             strokeWeight: 5
         });
+*/
 
         var swBound = new google.maps.LatLng(
          -17.395639841287075, -66.1495984815931
@@ -197,43 +250,64 @@ var mapa = {
         var bounds = new google.maps.LatLngBounds(swBound, neBound);
 
         var srcImage = 'imagenes/margen1.png';
-        this.overlay = new USGSOverlay(bounds, srcImage, mapa.map);
+        this.overlay = new UMSSOverlay(bounds, srcImage, UMSS.map);
 
-        // google.maps.event.addListener(mapa.map, 'click', function(event) {
-        //    mapa.placeMarker(event.latLng);
-
-          
+ /*       google.maps.event.addListener(UMSS.map, 'click', function(event) {
+           UMSS.placeMarker(event.latLng);
          });
+ */
     },
 
-    addMarker : function( object ){
+    addMarker : function( point ){
                 
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng( object.lat, object.lng  ),
+                position: new google.maps.LatLng( point.lat, point.lng  ),
                 // map: this.map,
-                icon: 'imagenes/'+object.markerType+'.png'
+                icon: 'imagenes/'+point.markerType+'.png'
                 // title: 'Posicion '+key
             });
             this.markers.push(marker);
-            
+
+            if( point.info )
+              UMSS.showInfowindow( marker,  point.info );
+            /*
+            // para hacer la prueba la polylinia
+            this.polyline.getPath().push( marker.position );
+*/
+           /* 
             // maneja el click sobre un marker y muestra el InfoWindow
             google.maps.event.addListener( marker, 'click' , function() {
                 
-                if (!mapa.infowindow) {
-                    mapa.infowindow = new google.maps.InfoWindow();
+                if (!UMSS.infowindow) {
+                    UMSS.infowindow = new google.maps.InfoWindow();
                 };
 
-                mapa.infowindow.setContent(object.info);
+                UMSS.infowindow.setContent(point.info);
                 
-                mapa.infowindow.open(mapa.map, marker);
-            });
+                UMSS.infowindow.open(UMSS.map, marker);
+            });*/
 
-            //
-            this.polyline.getPath().push( marker.position );
+
+    },
+
+    showInfowindow : function( marker ,   data  ){
+      
+      // maneja el click sobre un marker y muestra el InfoWindow
+      google.maps.event.addListener( marker  , 'click' , function() {
+          
+          if (!UMSS.infowindow) {
+              UMSS.infowindow = new google.maps.InfoWindow();
+          };
+
+          UMSS.infowindow.setContent( data );
+          
+          UMSS.infowindow.open(UMSS.map, marker );
+      });
 
     },
 
     removeMarkers : function() {
+      //  no esta funcionando
         this.markers.length = 0;
     },
 
@@ -241,15 +315,15 @@ var mapa = {
          this.locations = locationsJSON.locations;
          console.log(this.locations);
           $.each( this.locations, function( key, value ) {
-              mapa.addMarker(value);
+              UMSS.addMarker(value);
           });
-          mapa.showMarkers();
+          UMSS.showMarkers();
     },
 
     showMarkers : function(){
         $.each(this.markers, function(key, value) {
             // console.log(value);
-            value.setMap(mapa.map);
+            value.setMap(UMSS.map);
         });
     },
 
@@ -265,13 +339,31 @@ var mapa = {
 
     hidePolyline : function(){
         this.polyline.setMap(null);
-    }
+    },
 
+    addPolyline : function( color, opacity, weight ){
+      // color debe ser un string con elvalor hexadecimal del color ej: '#ff0000'
+      // opacity debe set un numero entre 0 y 1 ej: 0.6
+      // weight es el grosor del la linia en pixeles
+      // creamos el obejto polyline para la ruta
+        this.polyline = new google.maps.Polyline({
+            path: new google.maps.MVCArray(),
+            strokeColor: color,
+            strokeOpacity: opacity,
+            strokeWeight: weight
+        });
+    }
+/*
+    UMSSOverlay : function(){
+        var name = "umms overlay";
+        console.log(name);
+    }
+*/
     /*placeMarker : function( location ){
           // var clickedLocation = new google.maps.LatLng(location);
           var marker = new google.maps.Marker({
               position: location,
-              map: mapa.map
+              map: UMSS.map
           });
           console.log( location.lat()+", "+location.lng() );
           // console.log(location);
@@ -282,5 +374,6 @@ var mapa = {
 
 $(document).ready(function(){
     var latlng = [ -17.3937285, -66.1457475] ;
-    mapa.init('#map', 17, latlng );
-    mapa.addMarkers();
+    UMSS.init('#map', 17, latlng );
+    UMSS.addMarkers();
+});
