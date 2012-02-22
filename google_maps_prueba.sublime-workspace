@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"U",
+				"UMSS"
+			],
+			[
+				"set",
+				"setO"
+			],
+			[
+				"se",
+				"segundoPiso"
+			],
+			[
+				"bo",
+				"bounds"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"UM",
+				"UMSSOverlay"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"op",
+				"opciones"
+			],
+			[
 				"opc",
 				"opacity"
 			],
@@ -24,10 +60,6 @@
 				"position"
 			],
 			[
-				"bo",
-				"border"
-			],
-			[
 				"b",
 				"border	border-right: size style color"
 			],
@@ -46,10 +78,6 @@
 			[
 				"show",
 				"showMarkers"
-			],
-			[
-				"se",
-				"selector	A basic jQuery selector"
 			],
 			[
 				"ad",
@@ -80,34 +108,50 @@
 	"buffers":
 	[
 		{
-			"file": "map5.html",
+			"file": "js/map6.js",
 			"settings":
 			{
-				"buffer_size": 1477,
+				"buffer_size": 4588,
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"file": "map5.html",
-=======
-			"file": "auth.php",
-			"settings":
-			{
-				"buffer_size": 2124,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "map3.html",
->>>>>>> modificando-test-3
-=======
 			"file": "js/map5.js",
->>>>>>> test-5
 			"settings":
 			{
-				"buffer_size": 10093,
+				"buffer_size": 10399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libs/js/jquery.js",
+			"settings":
+			{
+				"buffer_size": 248235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/estilo.css",
+			"settings":
+			{
+				"buffer_size": 897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "map5.html",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "map6.html",
+			"settings":
+			{
+				"buffer_size": 1169,
 				"line_ending": "Unix"
 			}
 		}
@@ -196,30 +240,20 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/jquery.js",
-		"/opt/lampp/htdocs/google_maps_pruebas/js/map5.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/gmap3.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/map6.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map5.html",
-		"/home/ed/.config/sublime-text-2/Packages/User/Global.sublime-settings",
-		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
->>>>>>> test-5
-		"/opt/lampp/htdocs/google_maps_pruebas/map1.html",
-=======
-		"/opt/lampp/htdocs/google_maps_pruebas/php/map3.php",
-		"/opt/lampp/htdocs/google_maps_pruebas/map3.html",
-		"/opt/lampp/htdocs/google_maps_pruebas/libs/conexion.php",
-		"/home/ed/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
-		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
-		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
-		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
->>>>>>> modificando-test-3
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map6.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/index.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/map1.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map2.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map3.html",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map5.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/js/map3.js",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/jquery.js",
+		"/home/ed/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/getlatlng.html",
-<<<<<<< HEAD
 		"/opt/lampp/htdocs/google_maps_pruebas/auth.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/php/map3.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/libs/conexion.php",
@@ -227,8 +261,6 @@
 		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
 		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
-=======
->>>>>>> modificando-test-3
 		"/opt/lampp/htdocs/google_maps_pruebas/README",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map2.js",
@@ -266,6 +298,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"primerPiso",
 			"ruta",
 			"mapa",
 			"object",
@@ -295,79 +328,55 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "map5.html",
+					"file": "js/map6.js",
 					"settings":
 					{
-						"buffer_size": 1477,
+						"buffer_size": 4588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								771,
-								771
-=======
-								3325,
-								3325
->>>>>>> modificando-test-3
-=======
-								974,
-								974
->>>>>>> test-5
+								4588,
+								4588
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-						"translation.y": 47.0,
-=======
-						"translation.y": 1496.0,
->>>>>>> modificando-test-3
-=======
-						"translation.y": 45.0,
->>>>>>> test-5
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"file": "map5.html",
-=======
-					"file": "auth.php",
+					"file": "js/map5.js",
 					"settings":
 					{
-						"buffer_size": 2124,
+						"buffer_size": 10399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								10394,
+								10394
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -378,42 +387,111 @@
 				},
 				{
 					"buffer": 2,
-					"file": "map3.html",
->>>>>>> modificando-test-3
-=======
-					"file": "js/map5.js",
->>>>>>> test-5
+					"file": "libs/js/jquery.js",
 					"settings":
 					{
-						"buffer_size": 10093,
+						"buffer_size": 248235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-<<<<<<< HEAD
-								1438,
-								1438
-=======
-								495,
-								495
->>>>>>> modificando-test-3
-=======
-								9841,
-								9841
->>>>>>> test-5
+								2663,
+								2663
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1419.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/estilo.css",
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5027.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "map5.html",
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "map6.html",
+					"settings":
+					{
+						"buffer_size": 1169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -463,12 +541,20 @@
 		"selected_items":
 		[
 			[
+				"libs",
+				"libs/js/jquery.js"
+			],
+			[
 				"js5",
 				"js/map5.js"
 			],
 			[
+				"js6",
+				"js/map6.js"
+			],
+			[
 				"js",
-				"libs/js/jquery.js"
+				"js/map3.js"
 			],
 			[
 				"bd",

@@ -251,7 +251,7 @@ var UMSS = {
 
         var srcImage = 'imagenes/margen1.png';
 
-        this.overlay = new USGSOverlay(bounds, srcImage, mapa.map);
+        // this.overlay = new USGSOverlay(bounds, srcImage, mapa.map);
 
         // google.maps.event.addListener(mapa.map, 'click', function(event) {
         //    mapa.placeMarker(event.latLng);
@@ -321,6 +321,7 @@ var UMSS = {
     },
 
     addMarkers : function(){
+         // mejorar metiendole la opcion de anadir los marker mandandole un arreglo  xD
          this.locations = locationsJSON.locations;
          console.log(this.locations);
           $.each( this.locations, function( key, value ) {
@@ -348,10 +349,10 @@ var UMSS = {
 
     hidePolyline : function(){
         this.polyline.setMap(null);
-    }
+    },
 
 
-    addPolyline : function( color, opacity, weight ){
+    addPolyline : function( color, opacity, grosor ){
       // color debe ser un string con elvalor hexadecimal del color ej: '#ff0000'
       // opacity debe set un numero entre 0 y 1 ej: 0.6
       // weight es el grosor del la linia en pixeles
@@ -360,7 +361,7 @@ var UMSS = {
             path: new google.maps.MVCArray(),
             strokeColor: color,
             strokeOpacity: opacity,
-            strokeWeight: weight
+            strokeWeight: grosor
         });
     }
 /*
@@ -387,4 +388,5 @@ $(document).ready(function(){
     var latlng = [ -17.3937285, -66.1457475] ;
     UMSS.init('#map', 17, latlng );
     UMSS.addMarkers();
+    
 });
