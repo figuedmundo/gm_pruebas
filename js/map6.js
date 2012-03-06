@@ -24,8 +24,6 @@ var UMSS = {
         return overlay;
     }
 
-
-
 }
 
 function UMSSOverlay(bounds, image, map) {
@@ -129,7 +127,7 @@ $(document).ready(function(){
     UMSS.init();
 
 
-        var swBound = new google.maps.LatLng(
+        var swBound = new google.maps.LatLng( 
          -17.395639841287075, -66.1495984815931
         );
 

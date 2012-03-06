@@ -1,36 +1,93 @@
-.round 
-{
-    border-radius: 16px;
-}
-
 body 
 {
     background: #fff;
     color:  #333;
     font-family:  Helvetica, Arial;
     font-size: 16px;
+    margin: -12px 10px 40px 10px;
 }
+ul, ol
+{
+    list-style: none;
+}
+
+/* header nav = #top-menu */
+#top-menu
+{
+    background-color: #222222;
+    color: #DDD;
+    height: 54px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 80%;
+}
+
+#top-menu ul
+{
+    padding-top: 18px;
+    float: none;
+}
+
+#top-menu ul li
+{
+    border-right: 1px solid #c9dad2;
+    float: left;
+    padding: 0 10px ;
+
+}
+
+#top-menu ul li a
+{
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+#top-menu ul li a:hover
+{
+    color: #fff;
+}
+
+#top-menu ul li a:visited
+{
+    color: #ccc;
+}
+
+.round 
+{
+    border-radius: 1em;
+}
+
+/*
+
 h1 
 {
     text-align: center;
     margin: 5px 0 10px 0;
 }
-a {
+
+a 
+{
     color: #333;
     text-decoration: none;
 }
 
-a:visited {
+a:visited 
+{
     color: #333;
 }
 
-nav {
+nav 
+{
     margin: 0 0 20px 0;
     overflow: visible;
     height: 32px;
 }
 
-nav li {
+nav li 
+{
     float: left;
     padding: 15px;
     background-color: #333;
@@ -42,12 +99,14 @@ nav li {
     cursor: pointer;
 }
 
-nav li.selected {
+nav li.selected 
+{
     background-color: red;
     font-weight: normal;
 }
 
-nav li.hover {
+nav li.hover 
+{
     background-color: blue;
 }
 
@@ -61,7 +120,8 @@ nav li a:visited
 }
 
 
-#map {
+#map 
+{
   height: 500px;
   width: 1000px;
   border: 1px solid #000;
@@ -72,3 +132,6 @@ nav li a:visited
     display: inline-block;
     vertical-align: top;
 }
+
+
+*/

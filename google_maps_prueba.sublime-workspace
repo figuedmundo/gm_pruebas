@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"ri",
+				"right"
+			],
+			[
+				"visi",
+				"visited"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin	margin: T R B L"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"d",
+				"draw_normal"
+			],
+			[
+				"sub",
+				"subpixel_antialias"
+			],
+			[
+				"no",
+				"no_antialias"
+			],
+			[
+				"no_",
+				"no_italic"
+			],
+			[
+				"dra",
+				"draw_active"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"calc",
+				"calcular_operacion"
+			],
+			[
 				"U",
 				"UMSS"
 			],
@@ -84,10 +136,6 @@
 				"addMarker"
 			],
 			[
-				"ma",
-				"marker"
-			],
-			[
 				"inf",
 				"infowindow"
 			],
@@ -111,7 +159,7 @@
 			"file": "js/map6.js",
 			"settings":
 			{
-				"buffer_size": 4588,
+				"buffer_size": 4937,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,26 +180,18 @@
 			}
 		},
 		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "css/estilo.css",
 			"settings":
 			{
-				"buffer_size": 897,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "map5.html",
-			"settings":
-			{
-				"buffer_size": 1545,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "map6.html",
-			"settings":
-			{
-				"buffer_size": 1169,
+				"buffer_size": 1530,
 				"line_ending": "Unix"
 			}
 		}
@@ -162,6 +202,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"col",
+				"Color picker"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"php",
 				"Format: Php"
@@ -199,10 +247,6 @@
 				"Package Control: Add Repository"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"htm",
 				"Set Syntax: HTML"
 			],
@@ -223,7 +267,7 @@
 				"About"
 			]
 		],
-		"width": 593.0
+		"width": 620.0
 	},
 	"console":
 	{
@@ -240,9 +284,18 @@
 	},
 	"file_history":
 	[
-		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/gmap3.js",
+		"/home/ed/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/User/JavaScript.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/opt/lampp/htdocs/google_maps_pruebas/google_maps_prueba.sublime-project",
+		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
 		"/opt/lampp/htdocs/google_maps_pruebas/map6.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map5.html",
+		"/home/ed/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/ed/Escritorio/calculador.module",
+		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/gmap3.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map6.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/index.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/map1.html",
@@ -251,8 +304,6 @@
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map5.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map3.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/libs/js/jquery.js",
-		"/home/ed/.config/sublime-text-2/Packages/User/Global.sublime-settings",
-		"/home/ed/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/getlatlng.html",
 		"/opt/lampp/htdocs/google_maps_pruebas/auth.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/php/map3.php",
@@ -260,7 +311,6 @@
 		"/home/ed/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/conexion.php",
 		"/opt/lampp/htdocs/google_maps_pruebas/bd/script.sql",
-		"/opt/lampp/htdocs/google_maps_pruebas/css/estilo.css",
 		"/opt/lampp/htdocs/google_maps_pruebas/README",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map2.js",
@@ -268,7 +318,6 @@
 		"/home/ed/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map1.js",
 		"/opt/lampp/htdocs/google_maps_pruebas/js/map.js",
-		"/opt/lampp/htdocs/google_maps_pruebas/google_maps_prueba.sublime-project",
 		"/opt/lampp/htdocs/google_maps_pruebas/google_maps_prueba.sublime-workspace",
 		"/home/ed/publico/www/librojquery/ejercicios/js/sandbox.js",
 		"/home/ed/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
@@ -298,6 +347,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"imagenes",
 			"primerPiso",
 			"ruta",
 			"mapa",
@@ -328,7 +378,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -336,20 +386,22 @@
 					"file": "js/map6.js",
 					"settings":
 					{
-						"buffer_size": 4588,
+						"buffer_size": 4937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4588,
-								4588
+								941,
+								941
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -369,8 +421,8 @@
 						"selection":
 						[
 							[
-								10394,
-								10394
+								5632,
+								5632
 							]
 						],
 						"settings":
@@ -380,7 +432,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2243.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -397,8 +449,8 @@
 						"selection":
 						[
 							[
-								2663,
-								2663
+								2968,
+								2968
 							]
 						],
 						"settings":
@@ -407,53 +459,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1419.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "css/estilo.css",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 897,
+						"buffer_size": 990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								821,
-								821
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "map5.html",
-					"settings":
-					{
-						"buffer_size": 1545,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1014,
-								496
+								262,
+								262
 							]
 						],
 						"settings":
@@ -469,29 +493,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "map6.html",
+					"buffer": 4,
+					"file": "css/estilo.css",
 					"settings":
 					{
-						"buffer_size": 1169,
+						"buffer_size": 1530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1146,
-								1146
+								395,
+								395
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 87.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -540,6 +564,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"es",
+				"css/estilo.css"
+			],
 			[
 				"libs",
 				"libs/js/jquery.js"
