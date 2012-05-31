@@ -29,7 +29,6 @@ bundler_stubs/
 .slugignore
 
 # images uploaded
-/images/
 *.png
 *.jpg
 *.gif
