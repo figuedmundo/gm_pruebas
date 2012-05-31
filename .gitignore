@@ -30,3 +30,6 @@ bundler_stubs/
 
 # images uploaded
 /images/
+*.png
+*.jpg
+*.gif
