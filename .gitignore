@@ -1,5 +1,32 @@
-*.log
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
 *~
-tmp/
-*.sublime*
-google_maps_prueba.sublime-workspace
+.project
+.DS_Store
+
+# Ignore project of ST2
+*.sublime-project
+*.sublime-workspace
+
+bundler_stubs/
+
+# its for heroku deploy reduce slug size
+.slugignore
+
+# images uploaded
+/public/uploads

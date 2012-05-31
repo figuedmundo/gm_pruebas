@@ -60,6 +60,21 @@ ul, ol
     border-radius: 1em;
 }
 
+
+
+#map 
+{
+  height: 500px;
+  width: 1000px;
+  border: 1px solid #000;
+}
+
+#content article
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
 /*
 
 h1 
@@ -119,19 +134,6 @@ nav li a:visited
     color: #FFF;
 }
 
-
-#map 
-{
-  height: 500px;
-  width: 1000px;
-  border: 1px solid #000;
-}
-
-#content article
-{
-    display: inline-block;
-    vertical-align: top;
-}
 
 
 */
