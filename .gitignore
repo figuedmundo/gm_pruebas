@@ -29,4 +29,4 @@ bundler_stubs/
 .slugignore
 
 # images uploaded
-/public/uploads
+/images
